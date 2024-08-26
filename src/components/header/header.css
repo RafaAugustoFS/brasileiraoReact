@@ -1,0 +1,21 @@
+.headerStyle {
+    background-color: #1f5aff;
+    padding: 20px;
+    text-align:center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+.titleStyle {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;
+} 
+.subtitleStyle {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;
+} 
+.imagemBr{
+    width: 200px;
+
+}
