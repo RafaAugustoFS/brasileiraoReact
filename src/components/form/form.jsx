@@ -10,6 +10,7 @@ const Form = () => {
 
   //Estado do formulário
   const [formState, setFormState] = useState(initialForm);
+  const timesBrasil = ["Athletico-Pr","Atlético-Mg","Atlético-Go","Bahia", "Botafogo", "Bragantino", "Corinthians", "Criciuma", "Cruzeiro", "Cuiabá", "Flamengo", "Fluminense", "Fortaleza", "Grêmio", "Internacional", "Juventude", "Palmeiras", "São Paulo", "Vasco da Gama", "Vitória"]
 
   // Função para lidar com a alteração dos campos de entrada
 
@@ -26,6 +27,15 @@ const Form = () => {
   // Função para lidar com a submissão do formulário
   const handleSubmit = (event) => {
     event.preventDefault();
+    if(formState.nome === "" || formState.time === " "){
+      alert("Preencha todos os campos!")
+      return;
+    }
+    if(!timesBrasil.includes(formState.time)){
+      alert("Escreva o time conforme a tabela acima!")
+      setFormState({ ...initialForm });
+      return;
+    }
     console.log(formState.nome + " torce para o " + formState.time + "!");
     // Após o submit retorna o valor nulo no input
     setFormState({ ...initialForm });

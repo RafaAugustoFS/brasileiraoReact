@@ -1,17 +1,20 @@
 import "./bannerJogos.css"
 
-const BannerJogos = ({timeCasa, timeVisitante, dia, horario}) =>{
+const BannerJogos = ({timeCasa, timeVisitante, imgCasa, dia, imgVisitante, horario}) =>{
     return(
          <div className="banner">
             <la>
                 <li className="match">
+                    <img className="imgTimes" src={imgCasa} alt="" />
                     <div>
-                        <h4>{timeCasa} x <br /> {timeVisitante}</h4>
+                        <div className="datetime">
+                            {dia} {horario}
+                        </div>
+                        <div>
+                            <h4>{timeCasa} x {timeVisitante}</h4>
+                        </div>
                     </div>
-                    <div className="datetime">
-                        {dia} <br />
-                        {horario}
-                    </div>
+                    <img className="imgTimes" src={imgVisitante} alt="" />
                 </li>
             </la>
         </div>

@@ -22,13 +22,15 @@
   }
   
   .form-control button {
-    background-color: #1f5aff; /* Cor do botão */
+    background-color: #1f5aff;
     color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
+    margin-left: 900px;
   }
   .containerLabels{
-    max-width: 500px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-right: 500px;
+    margin-left: 500px;
   }

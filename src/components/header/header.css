@@ -7,16 +7,16 @@
   }
 .titleStyle {
     margin: 0;
-    font-size: 24px;
+    font-size: 40px;
     color: #ffffff;
 } 
 .subtitleStyle {
     margin: 0;
-    font-size: 24px;
+    font-size: 40px;
     color: #ffffff;
 } 
 .containerInfos{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .imagemBr{
     width: 200px;

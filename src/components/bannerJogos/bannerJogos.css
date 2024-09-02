@@ -3,17 +3,19 @@
     list-style: none;
     text-align: center;
     font-size: 30px;
+    background-color: #b3c4f0;
 }
 .match{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: auto;
-    width: 480px;
+    width: 700px;
     height: 70px;
     padding: 10px;
     border:1px solid #000;
     border-radius: 20px;
 }
-.match img{
-    width: 100px;
+.imgTimes{
+    max-width: 500px;
+    max-height: 200px;
 }
