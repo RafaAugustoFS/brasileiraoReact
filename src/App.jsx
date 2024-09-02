@@ -42,7 +42,7 @@ function App() {
         dia= "Dom., 01/09"
         horario= "16:00" 
         timeCasa="Athletico-Pr"
-        timeVisitante="porco"
+        timeVisitante="palmeiras"
       />
       <BannerJogos
         dia= "Dom., 01/09"

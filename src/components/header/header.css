@@ -15,7 +15,12 @@
     font-size: 24px;
     color: #ffffff;
 } 
+.containerInfos{
+    margin-top: 100px;
+}
 .imagemBr{
     width: 200px;
-
+}
+.imagemCbf{
+    width: 150px;
 }

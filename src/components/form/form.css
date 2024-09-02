@@ -1,0 +1,34 @@
+.containerForm {
+    background-color: #ffeb3b;
+    padding: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .form-control label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-control input {
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-control button {
+    background-color: #1f5aff; /* Cor do botão */
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  .containerLabels{
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+  }
